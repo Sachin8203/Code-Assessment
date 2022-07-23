@@ -1,0 +1,21 @@
+package assessment;
+
+public class TestController {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Employee E1=new Employee("Sachin D", 21, "Associate Software Engineer");
+		Employee E2=new Employee("Sethu M", 21, "Associate Software Engineer");
+		Employee E3=new Employee("Yogesh S", 21, "Associate Software Engineer");
+		Employee E4=new Employee("Santhosh M", 21, "Associate Software Engineer");
+		Employee E5=new Employee("Jeison J", 22, "Associate Software Engineer");
+		
+		HrManager.processRecords(E1.name, E1.age, E1.designation);
+		HrManager.processRecords(E2.name, E2.age, E2.designation);
+		HrManager.processRecords(E3.name, E3.age, E3.designation);
+		HrManager.processRecords(E4.name, E4.age, E4.designation);
+		HrManager.processRecords(E5.name, E5.age, E5.designation);
+	}
+
+}
